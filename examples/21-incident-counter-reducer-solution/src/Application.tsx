@@ -11,10 +11,10 @@ type SetCounterAction = {
 
 type BetterAction = BasicCounterAction | SetCounterAction;
 
-type CounterAction = {
-  type: 'INCREMENT' | 'DECREMENT' | 'SET';
-  payload?: number;
-};
+// type CounterAction = {
+//   type: 'INCREMENT' | 'DECREMENT' | 'SET';
+//   payload?: number;
+// };
 
 type CounterState = {
   value: number;
